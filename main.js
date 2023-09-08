@@ -1,6 +1,9 @@
-const customName = document.getElementById('customname');
-const randomize = document.getElementById('.randomize');
-const story = document.querySelector('.story');
+// fetches input from the form to gather name
+var customName = document.getElementById('customname');
+// registers the button click to generate story
+var randomize = document.getElementById('.randomize');
+// to populate the paragraph element with the text story
+var story = document.querySelector('.story');
 
 var storyText = "It was 94 fahrenheit outside so :insertx: went for a walk.  When they got to :inserty: they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised - :insertx: weighs 300 pounds, and it was a hot day."
 var insertX = ["Batty", "Vanessa", "Shrek"];
